@@ -1,5 +1,5 @@
 import { GoogleGenAI } from '@google/genai';
-const GEMINI_API_KEY = "AIzaSyAkRD9O9WC_0-qGXlGXMq7xEsxfr1lUTqM"
+
 
 const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
 
@@ -50,4 +50,5 @@ inputBox.addEventListener('keydown', (event) => {
 
 sendButton.addEventListener('click', () => {
   SendMessage();
+
 });
